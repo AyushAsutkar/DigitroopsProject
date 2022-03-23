@@ -365,9 +365,12 @@ h4 {
 .list-unstyled {
     font-size: 20px;
     margin-top: 20px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-weight: 600;
-    text-decoration: underline;
+    
+}
+.list-unstyled li{
+    text-decoration: none;
 }
 @media only screen and (max-width: 767px){
     .mb30{
@@ -375,7 +378,7 @@ h4 {
     }
 }
 .wpb_wrapper1 ul{
-    color: #fff;
+    color: rgb(10, 0, 0);
     font-size: 30px;
 }
 @media only screen and (max-width: 767px){
